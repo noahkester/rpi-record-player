@@ -1,0 +1,14 @@
+.album-cover-con {
+    padding: 20px;
+    background-color: #776C67;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+.control-pad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}

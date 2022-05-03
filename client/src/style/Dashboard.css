@@ -1,0 +1,47 @@
+.Dashboard {
+    height: 100vh;
+    background-color: #5C4F4A;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blur {
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0, 0.4);
+    backdrop-filter: blur(5px);
+}
+.Footer {
+    z-index: 3;
+    position: absolute;
+    bottom: -50%;
+    height: 50%;
+    width: 100%;
+    background-color: #5C4F4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-up {
+    animation-name: animateup;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out ;
+    animation-fill-mode: forwards;
+}
+@keyframes animateup {
+    from {bottom: -50%;}
+    to {bottom: 0;}
+}
+.footer-down {
+    animation-name: animatedown;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out ;
+    animation-fill-mode: forwards;
+}
+@keyframes animatedown {
+    from {bottom: 0;}
+    to {bottom: -50%;}
+}

@@ -1,0 +1,8 @@
+.login-screen {
+    height: 100vh;
+    background-color: #5C4F4A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
